@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>400</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+in</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>380</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_COURSE(S)_
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>350</y>
+      <w>420</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>One-to-Many Relationship
+--
+Business Rule: one STUDENT ENROLL(S) in many COURSE(S)
+   &gt; Object Relational Diagram
+--
+_STUDENT ENROLL(S)_
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>190</y>
+      <w>420</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>One-to-Many Relationship
+--
+Business Rule: One ENROLLMENT has many COURSE(S)
+   &gt; Object Relational Diagram
+--
+_ENROLLMENT_
+_term_
+_gpa_
+_start_date_
+_end_date_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>220</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_COURSE(S)_
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>250</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>50</y>
+      <w>420</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>One-to-Many Relationship
+--
+Business Rule: One STUDENT has many ENROLLMENT(S)
+   &gt; Object Relational Diagram
+--
+_STUDENT_
+_student_id_
+_first_name_
+_last_name_
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>80</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>_ENROLLMENT(S)_
+--
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>100</y>
+      <w>120</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>470</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>_object: STUDENT_
+--
+studentID
+firstName
+lastName</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>470</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_object: COURSE(S)_
+--
+courseID
+studentID
+description
+instructor
+grade</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>510</x>
+      <y>470</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>_object: ENROLLMENT(S)_
+--
+enrollmentID
+courseID
+studentID
+term
+gpa
+startDate
+endDate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>180</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>70</x>
+      <y>490</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1.*</panel_attributes>
+    <additional_attributes>190.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>510</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1.*</panel_attributes>
+    <additional_attributes>190.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>190</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Object Relational Diagram
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>490</y>
+      <w>210</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1.*</panel_attributes>
+    <additional_attributes>190.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>310</x>
+      <y>10</y>
+      <w>180</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>One-to-Many
+{
+"user_name": "1",
+
+"dependents": [
+{
+"dependentFirstName": "A",
+"dependentLastName": "B"
+},
+{
+"dependentFristName": "C",
+"dependentLastName": "D"
+}
+]
+}
+
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>120</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>Many-to-Many
+{
+"user_name": "1",
+
+"roles": [
+{
+"role1": "A",
+"role2": "B"
+},
+{
+"role1": "C",
+"role2": "D"
+},
+]"user_name": "2",
+
+"roles": [
+{
+"role1": "A",
+"role2": "B"
+},
+{
+"role1": "E",
+"role2": "F"
+}
+]
+
+}
+
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>160</x>
+      <y>10</y>
+      <w>130</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>One-to-One
+{
+"user_name": "1",
+
+"Birthdate": [
+{
+"Birthdate": "Date",
+}
+]
+}
+
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

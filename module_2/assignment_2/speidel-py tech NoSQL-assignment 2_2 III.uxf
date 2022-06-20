@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>10</x>
+      <y>50</y>
+      <w>230</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>// in student
+{
+“student”: {
+“id”: 55667,
+“firstName”: “TestFirst”,
+“lastName”: “TestLast”,
+
+“enrollment”: [
+   {
+      “id”:99,
+      “studentID”; “55667”,
+      “term”: “Spring2022”,
+      “gpa”: “TestGPA”,
+      “startDate”: “20220314”,
+      “endDate”: “20220515”,
+      
+      “course”: [
+      {
+      “id”: “200”,
+      “description”: “TestDescription”,
+      “instructor”: “TestInstructor”,
+      “grade”: “TestGrade”,
+      }],
+   }]
+}
+}
+--
+bg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>10</x>
+      <y>10</y>
+      <w>230</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Aggregate Data Model NoSQL
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

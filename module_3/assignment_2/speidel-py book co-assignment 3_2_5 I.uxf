@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>20</x>
+      <y>50</y>
+      <w>470</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>_BUSINESS RULES_
+
+One PUBLISHER has many BOOK NAME(S), and many BOOK ISBN(S), 
+and many PUBLISHER ADDRESS(ES), and many AUTHOR(S)
+
+One AUTHOR has many ISBN(S), and many AUTHOR CONTACT(S)
+
+One ISBN has many BOOK PRICE(S)
+
+One BOOK NAME has many ISBN(S), and many BOOK PRICE(S)
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>10</y>
+      <w>360</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Assignment 3.2.5 I Object Relational Diagram Sample 1
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
