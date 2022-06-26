@@ -4,6 +4,7 @@ url = "mongodb+srv://admin:admin@cluster0.ptdopkt.mongodb.net/pytech?retryWrites
 ca = certifi.where()
 client = MongoClient(url,tlsCAFile=ca)
 students = client.pytech.get_collection("students")
+
 students.delete_many({})
 def insert_one(student): 
     return students.insert_one(student).inserted_id
