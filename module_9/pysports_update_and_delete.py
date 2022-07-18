@@ -25,7 +25,7 @@ try:
     
     #Update Player
     cursor = db.cursor()
-    cursor.execute("UPDATE player SET team_id = 2 WHERE first_name = ''Smeagol'")
+    cursor.execute("UPDATE player SET team_id = 2 WHERE first_name = 'Smeagol'")
     
     print ("-- DISPLAYING PLAYER AFTER UPDATE --")
     players = cursor.fetchall()
